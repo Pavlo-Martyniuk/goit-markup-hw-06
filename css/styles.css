@@ -1056,7 +1056,6 @@ a {
     padding: 0;
     gap: 40px;
   }
-
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -1077,6 +1076,7 @@ a {
         ),
         url(../images/people-office-2x-desk.jpg);
     }
+	
   }
 
   .hero-container {
