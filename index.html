@@ -51,91 +51,87 @@
             </li>
           </ul>
         </address>
-		  <button type="button" class="open-menu-btn">
-			<svg  class= "open-menu-button " width="24" height="24">
-				<use href="./images/icons.svg#icon-solid-menu"></use>
-			</svg>
-		  </button>
-      </div>
-
-	</header>
-		<div class="mob-menu ">
-		<button type="button" class="mob-close">
-			<svg class="mob-closed" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black-dp"></use>
+        <button type="button" class="open-menu-btn">
+          <svg class="open-menu-button" width="24" height="24">
+            <use href="./images/icons.svg#icon-solid-menu"></use>
           </svg>
-		</button>
+        </button>
+      </div>
+    </header>
+    <div class="mob-menu">
+      <button type="button" class="mob-close">
+        <svg class="mob-closed" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black-dp"></use>
+        </svg>
+      </button>
 
+      <nav class="mob_navigation">
+        <ul class="mob-nav-list">
+          <li>
+            <a class="mob-nav-item mob-nav-after" href="./index.html"
+              >Studio
+            </a>
+          </li>
+          <li><a class="mob-nav-item" href="">Portfolio</a></li>
+          <li><a class="mob-nav-item" href="">Contacts</a></li>
+        </ul>
+      </nav>
 
-			<nav class="mob_navigation">
-				<ul class="mob-nav-list">
-				  <li>
-					 <a class="mob-nav-item mob-nav-after" href="./index.html"
-						>Studio
-					 </a>
-				  </li>
-				  <li><a class="mob-nav-item" href="">Portfolio</a></li>
-				  <li><a class="mob-nav-item" href="">Contacts</a></li>
-				</ul>
-			 </nav>
+      <address class="mob-adresa">
+        <ul class="mob-adress-list">
+          <li>
+            <a class="mob-adress-item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="mob-adress-item" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
 
-			 <address class="mob-adresa">
-				<ul class="mob-adress-list">
-				  <li>
-					 <a class="mob-adress-item" href="mailto:info@devstudio.com"
-						>info@devstudio.com</a
-					 >
-				  </li>
-				  <li>
-					 <a class="mob-adress-item" href="tel:+110001111111"
-						>+11 (000) 111-11-11</a
-					 >
-				  </li>
-				</ul>
-			 </address>
-		
+      <ul class="mob-block-list">
+        <li class="mob-block-item">
+          <a href="#" class="mob-block-link">
+            <svg class="mob-block-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mob-block-item">
+          <a href="#" class="mob-block-link">
+            <svg class="mob-block-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mob-block-item">
+          <a href="#" class="mob-block-link">
+            <svg class="mob-block-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mob-block-item">
+          <a href="#" class="mob-block-link">
+            <svg class="mob-block-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
 
-			 <ul class="mob-block-list">
-            <li class="mob-block-item">
-              <a href="#" class="mob-block-link">
-                <svg class="mob-block-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mob-block-item">
-              <a href="#" class="mob-block-link">
-                <svg class="mob-block-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mob-block-item">
-              <a href="#" class="mob-block-link">
-                <svg class="mob-block-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mob-block-item">
-              <a href="#" class="mob-block-link">
-                <svg class="mob-block-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-			
-	</div>
-
-   <main>
+    <main>
       <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-btn" type="button">Order Service</button>
         </div>
-      </section> 
-			<section class="chapters section">
+      </section>
+      <section class="chapters section">
         <div class="container">
           <h2 class="visually-hidden">Chapters</h2>
           <ul class="chapters-list">
@@ -189,19 +185,43 @@
             </li>
           </ul>
         </div>
-      </section> 
+      </section>
       <section class="team section">
         <div class="container team-media-container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
-              <img
-                class="team-image"
-                src="./images/Team-Card-1.jpg"
-                alt="Product Designer"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/Our-team-1-1-desc.jpg 1x,
+                    ./images/Our-team-2-1-desc.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/Our-team-1-1-plash.jpg 1x,
+                    ./images/Our-team-2-1-plash.jpg 2x
+                  "
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/Our-team-1-1-mob.jpg 1x,
+                    ./images/Our-team-2-1-mob.jpg 2x
+                  "
+                />
+
+                <img
+                  class="team-image"
+                  src="./images/Our-team-1-1-plash.jpg"
+                  alt="Product Designer"
+                  width="264"
+                />
+              </picture>
+
               <div class="box-team">
                 <h3 class="team-subtitle">Mark Guerrero</h3>
                 <p class="team-description">Product Designer</p>
@@ -248,13 +268,37 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                class="team-image"
-                src="./images/Team-Card-2.jpg"
-                alt="Frontend Developer"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/Our-team-1-2-desc.jpg 1x,
+                    ./images/Our-team-2-2-desc.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/Our-team-1-2-plash.jpg 1x,
+                    ./images/Our-team-2-2-plash.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 320px)"
+                  srcset="
+                    ./images/Our-team-1-2-mob.jpg 1x,
+                    ./images/Our-team-2-2-mob.jpg 2x
+                  "
+                />
+
+                <img
+                  class="team-image"
+                  src="./images/Our-team-1-2-plash.jpg"
+                  alt="Product Designer"
+                  width="264"
+                />
+              </picture>
+
               <div class="box-team">
                 <h3 class="team-subtitle">Tom Ford</h3>
                 <p class="team-description">Frontend Developer</p>
@@ -300,13 +344,37 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                class="team-image"
-                src="./images/Team-Card-3.jpg"
-                alt="Marketing"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/Our-team-1-3-desc.jpg 1x,
+                    ./images/Our-team-2-3-desc.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/Our-team-1-3-plash.jpg 1x,
+                    ./images/Our-team-2-3-plash.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 320px)"
+                  srcset="
+                    ./images/Our-team-1-3-mob.jpg 1x,
+                    ./images/Our-team-2-3-mob.jpg 2x
+                  "
+                />
+
+                <img
+                  class="team-image"
+                  src="./images/Our-team-1-3-plash.jpg"
+                  alt="Product Designer"
+                  width="264"
+                />
+              </picture>
+
               <div class="box-team">
                 <h3 class="team-subtitle">Camila Garcia</h3>
                 <p class="team-description">Marketing</p>
@@ -352,13 +420,37 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                class="team-image"
-                src="./images/Team-Card-4.jpg"
-                alt="UI Designer"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/Our-team-1-4-desc.jpg 1x,
+                    ./images/Our-team-2-4-desc.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/Our-team-1-4-plash.jpg 1x,
+                    ./images/Our-team-2-4-plash.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 320px)"
+                  srcset="
+                    ./images/Our-team-1-4-mob.jpg 1x,
+                    ./images/Our-team-2-4-mob.jpg 2x
+                  "
+                />
+
+                <img
+                  class="team-image"
+                  src="./images/Our-team-1-4-plash.jpg"
+                  alt="Product Designer"
+                  width="264"
+                />
+              </picture>
+
               <div class="box-team">
                 <h3 class="team-subtitle">Daniel Wilson</h3>
                 <p class="team-description">UI Designer</p>
@@ -405,20 +497,34 @@
             </li>
           </ul>
         </div>
-      </section>	
+      </section>
       <section class="portfolio section">
-        <div class="container ">
+        <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="porfolio-image-box">
-                <img
-                  src="./images/Banking-App.jpg"
-                  alt="Banking App"
-                  width="360"
-                  height="300"
-                  class="portfolio-image"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/Our Portfolio-1-1-desc.jpg 1px, ./images/Our Portfolio-2-1-desc.jpg 2x"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="../images/Our Portfolio-1-1-plash.jpg 1px, ./images/Our Portfolio-2-1-desc.jpg 2x"
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./images/Our Portfolio-1-1-mob.jpg 1px, ./images/Our Portfolio-2-1-desc.jpg"
+                  />
+
+                  <img
+                    class="team-image"
+                    src="./images/Our Portfolio-1-1-plash.jpg"
+                    alt="Product Designer"
+                    width="356"
+                  />
+                </picture>
 
                 <p class="portfolio-image-description">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -434,13 +540,27 @@
             </li>
             <li class="portfolio-item">
               <div class="porfolio-image-box">
-                <img
-                  src="./images/Cashless-Payment.jpg"
-                  alt="Cashless Payment"
-                  width="360"
-                  height="300"
-                  class="portfolio-image"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/Our Portfolio-1-2-desc.jpg 1px, ./images/Our Portfolio-2-2-desc.jpg 2x"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="../images/Our Portfolio-1-2-plash.jpg 1px, ./images/Our Portfolio-2-2-desc.jpg 2x"
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./images/Our Portfolio-1-2-mob.jpg 1px, ./images/Our Portfolio-2-2-desc.jpg"
+                  />
+
+                  <img
+                    class="team-image"
+                    src="./images/Our Portfolio-1-2-plash.jpg"
+                    alt="Product Designer"
+                    width="356"
+                  />
+                </picture>
 
                 <p class="portfolio-image-description">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -455,13 +575,27 @@
             </li>
             <li class="portfolio-item">
               <div class="porfolio-image-box">
-                <img
-                  src="./images/Meditation-App.jpg"
-                  alt="Meditation App"
-                  width="360"
-                  height="300"
-                  class="portfolio-image"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/Our Portfolio-1-3-desc.jpg 1px, ./images/Our Portfolio-2-3-desc.jpg 2x"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="../images/Our Portfolio-1-3-plash.jpg 1px, ./images/Our Portfolio-2-3-desc.jpg 2x"
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./images/Our Portfolio-1-3-mob.jpg 1px, ./images/Our Portfolio-2-3-desc.jpg"
+                  />
+
+                  <img
+                    class="team-image"
+                    src="./images/Our Portfolio-1-3-plash.jpg"
+                    alt="Product Designer"
+                    width="356"
+                  />
+                </picture>
 
                 <p class="portfolio-image-description">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -469,20 +603,34 @@
                   · Cloud Storage App
                 </p>
               </div>
-              <div class="box-portfolio ">
+              <div class="box-portfolio">
                 <h3 class="portfolio-subtitle">Meditation App</h3>
                 <p class="portfolio-description">App</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="porfolio-image-box">
-                <img
-                  src="./images/Taxi-Service.jpg"
-                  alt="Taxi Service"
-                  width="360"
-                  height="300"
-                  class="portfolio-image"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/Our Portfolio-1-4-desc.jpg 1px, ./images/Our Portfolio-2-4-desc.jpg 2x"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="../images/Our Portfolio-1-4-plash.jpg 1px, ./images/Our Portfolio-2-4-desc.jpg 2x"
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./images/Our Portfolio-1-4-mob.jpg 1px, ./images/Our Portfolio-2-4-desc.jpg"
+                  />
+
+                  <img
+                    class="team-image"
+                    src="./images/Our Portfolio-1-4-plash.jpg"
+                    alt="Product Designer"
+                    width="356"
+                  />
+                </picture>
 
                 <p class="portfolio-image-description">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -498,13 +646,27 @@
 
             <li class="portfolio-item">
               <div class="porfolio-image-box">
-                <img
-                  src="./images/Screen-Illustrations.jpg"
-                  alt="Screen Illustrations"
-                  width="360"
-                  height="300"
-                  class="portfolio-image"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/Our Portfolio-1-5-desc.jpg 1px, ./images/Our Portfolio-2-5-desc.jpg 2x"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="../images/Our Portfolio-1-5-plash.jpg 1px, ./images/Our Portfolio-2-5-desc.jpg 2x"
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./images/Our Portfolio-1-5-mob.jpg 1px, ./images/Our Portfolio-2-5-desc.jpg"
+                  />
+
+                  <img
+                    class="team-image"
+                    src="./images/Our Portfolio-1-5-plash.jpg"
+                    alt="Product Designer"
+                    width="356"
+                  />
+                </picture>
 
                 <p class="portfolio-image-description">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -519,13 +681,27 @@
             </li>
             <li class="portfolio-item">
               <div class="porfolio-image-box">
-                <img
-                  src="./images/Online-Courses.jpg"
-                  alt="Online Courses"
-                  width="360"
-                  height="300"
-                  class="portfolio-image"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/Our Portfolio-1-6-desc.jpg 1px, ./images/Our Portfolio-2-6-desc.jpg 2x"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="../images/Our Portfolio-1-6-plash.jpg 1px, ./images/Our Portfolio-2-6-desc.jpg 2x"
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./images/Our Portfolio-1-6-mob.jpg 1px, ./images/Our Portfolio-2-6-desc.jpg"
+                  />
+
+                  <img
+                    class="team-image"
+                    src="./images/Our Portfolio-1-6-plash.jpg"
+                    alt="Product Designer"
+                    width="356"
+                  />
+                </picture>
 
                 <p class="portfolio-image-description">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -542,7 +718,7 @@
         </div>
       </section>
     </main>
-	 
+
     <footer class="footer">
       <div class="container footer-container-flex">
         <div class="foooter_logos footer-wrap">
@@ -588,7 +764,7 @@
             </li>
           </ul>
         </div>
-        <div class="footer-form-box ">
+        <div class="footer-form-box">
           <p class="footer-form-description">Subscribe</p>
           <form class="footer-form">
             <label class="label-input">
@@ -611,7 +787,7 @@
       </div>
     </footer>
 
-    <div class="backdrop ">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="button-close" width="8" height="8">
@@ -693,6 +869,6 @@
           <button class="modal-field-submit" type="submit">Send</button>
         </form>
       </div>
-    </div> 
+    </div>
   </body>
 </html>
