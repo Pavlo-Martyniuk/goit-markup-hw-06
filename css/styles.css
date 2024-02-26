@@ -874,6 +874,7 @@ a {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 736px;
+	 margin: 0 auto;
   }
   .team-media-container {
     padding-left: 108px;
@@ -1063,7 +1064,7 @@ a {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office.jpg);
-    min-width: 1440px;
+    max-width: 1440px;
     padding: 188px 0px;
   }
 
