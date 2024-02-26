@@ -51,16 +51,91 @@
             </li>
           </ul>
         </address>
+		  <button type="button" class="open-menu-btn">
+			<svg  class= "open-menu-button " width="24" height="24">
+				<use href="./images/icons.svg#icon-solid-menu"></use>
+			</svg>
+		  </button>
       </div>
-    </header>
-    <main>
+
+	</header>
+		<div class="mob-menu ">
+		<button type="button" class="mob-close">
+			<svg class="mob-closed" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-dp"></use>
+          </svg>
+		</button>
+
+
+			<nav class="mob_navigation">
+				<ul class="mob-nav-list">
+				  <li>
+					 <a class="mob-nav-item mob-nav-after" href="./index.html"
+						>Studio
+					 </a>
+				  </li>
+				  <li><a class="mob-nav-item" href="">Portfolio</a></li>
+				  <li><a class="mob-nav-item" href="">Contacts</a></li>
+				</ul>
+			 </nav>
+
+			 <address class="mob-adresa">
+				<ul class="mob-adress-list">
+				  <li>
+					 <a class="mob-adress-item" href="mailto:info@devstudio.com"
+						>info@devstudio.com</a
+					 >
+				  </li>
+				  <li>
+					 <a class="mob-adress-item" href="tel:+110001111111"
+						>+11 (000) 111-11-11</a
+					 >
+				  </li>
+				</ul>
+			 </address>
+		
+
+			 <ul class="mob-block-list">
+            <li class="mob-block-item">
+              <a href="#" class="mob-block-link">
+                <svg class="mob-block-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-block-item">
+              <a href="#" class="mob-block-link">
+                <svg class="mob-block-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-block-item">
+              <a href="#" class="mob-block-link">
+                <svg class="mob-block-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-block-item">
+              <a href="#" class="mob-block-link">
+                <svg class="mob-block-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+			
+	</div>
+
+   <main>
       <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-btn" type="button">Order Service</button>
         </div>
-      </section>
-      <section class="chapters section">
+      </section> 
+			<section class="chapters section">
         <div class="container">
           <h2 class="visually-hidden">Chapters</h2>
           <ul class="chapters-list">
@@ -114,9 +189,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> 
       <section class="team section">
-        <div class="container">
+        <div class="container team-media-container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
@@ -330,9 +405,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section>	
       <section class="portfolio section">
-        <div class="container">
+        <div class="container ">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-item">
@@ -394,7 +469,7 @@
                   · Cloud Storage App
                 </p>
               </div>
-              <div class="box-portfolio">
+              <div class="box-portfolio ">
                 <h3 class="portfolio-subtitle">Meditation App</h3>
                 <p class="portfolio-description">App</p>
               </div>
@@ -467,9 +542,10 @@
         </div>
       </section>
     </main>
+	 
     <footer class="footer">
       <div class="container footer-container-flex">
-        <div class="foooter_logos">
+        <div class="foooter_logos footer-wrap">
           <a class="footer-logo two-logo" href="./index.html"
             >Web<span class="footer-logo-span span-two-logo">Studio</span></a
           >
@@ -479,8 +555,8 @@
           </p>
         </div>
 
-        <div class="footer-contacts">
-          <p class="footer-contacts-description">Social media</p>
+        <div class="footer-contacts footer-wrap">
+          <p class="footer-contacts-description footer-wrap">Social media</p>
           <ul class="footer-block-list">
             <li class="footer-block-item">
               <a href="#" class="footer-block-link">
@@ -512,7 +588,7 @@
             </li>
           </ul>
         </div>
-        <div class="footer-form-box">
+        <div class="footer-form-box ">
           <p class="footer-form-description">Subscribe</p>
           <form class="footer-form">
             <label class="label-input">
@@ -535,7 +611,7 @@
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop ">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="button-close" width="8" height="8">
@@ -617,6 +693,6 @@
           <button class="modal-field-submit" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> 
   </body>
 </html>
