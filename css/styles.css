@@ -970,7 +970,7 @@ a {
     width: calc((100% - 24px) / 2);
   }
   .chapters-subtitle{
-	text-align: none;
+	text-align: left;
   }
   .team-list {
     flex-direction: row;
@@ -1116,6 +1116,7 @@ a {
     font-weight: 500;
     line-height: 1.2; 
     letter-spacing: 0.02em;
+	 text-align: left;
   }
 
   .team-list {
